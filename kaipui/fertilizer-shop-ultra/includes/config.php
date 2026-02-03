@@ -27,10 +27,13 @@ define('BASE_URL', $dir);
 // =====================
 // DB SETTINGS (แก้ตามเครื่อง/เซิร์ฟเวอร์)
 // =====================
-define('DB_HOST', '45.144.167.249');
-define('DB_NAME', 'fertilizer_shop');
-define('DB_USER', 'root');
-define('DB_PASS', 'Acc123456#');
+// =========================
+// DB SETTINGS (แก้ตามเครื่อง/เซิร์ฟเวอร์)
+// =========================
+define('DB_HOST', 'localhost');          // เปลี่ยนจากเลข IP เป็น localhost
+define('DB_NAME', 'fertilizer_shop');    // ชื่อตรงตามรูปภาพ phpMyAdmin เป๊ะๆ
+define('DB_USER', 'root');               // ลองใช้ root ไปก่อน (ถ้าเป็น VPS)
+define('DB_PASS', 'Acc123456#');         // รหัสผ่านที่คุณตั้งไว้
 
 // =====================
 // SESSION + TIMEZONE
